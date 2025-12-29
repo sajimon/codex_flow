@@ -4,7 +4,7 @@ description: Generuje z PRD nowe pliki spec.md i ROADMAP.md
 
 Na podstawie pliku `PRD.md`:
 
-CZĘŚĆ 1 — Specyfikacja
+## CZĘŚĆ 1 — Specyfikacja
 1. Wypełnij treścią istniejący plik `spec.md`, korzystając z jego OBECNEJ struktury.
 2. Nie zmieniaj nagłówków, nazw sekcji ani kolejności w `spec.md`.
 3. Uzupełnij każdą sekcję na poziomie wysokim (bez szczegółów implementacyjnych).
@@ -13,7 +13,7 @@ CZĘŚĆ 1 — Specyfikacja
 5. Decyzje techniczne wpisuj wyłącznie do sekcji `## Decyzje techniczne`
    i tylko jeśli wynikają bezpośrednio z PRD.
 
-CZĘŚĆ 2 — Roadmapa
+## CZĘŚĆ 2 — Roadmapa
 6. Wypełnij istniejący plik `ROADMAP.md`, zachowując jego strukturę.
 7. Nie zmieniaj nazw sekcji ani dozwolonych statusów milestone’ów.
 8. Zachowaj Milestone 0.5 jako pierwszy element roadmapy.
@@ -23,7 +23,7 @@ CZĘŚĆ 2 — Roadmapa
     - Definition of Done
     - Zakres
 
-Zasady:
+## Zasady:
 - Nie zmieniaj struktury `spec.md` ani `ROADMAP.md`.
 - Nie zmieniaj kodu.
 - Jeśli coś jest niejednoznaczne, użyj `TODO` zamiast zgadywania.
