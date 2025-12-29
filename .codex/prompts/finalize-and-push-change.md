@@ -4,16 +4,18 @@ description: Zatwierdzenie zmiany
 
 Zmiana działa poprawnie.
 
-Zaktualizuj `ROADMAP.md`:
-- oznacz wykonany milestone jako zrealizowany
+1. Zaktualizuj `ROADMAP.md`:
+   - oznacz wykonany milestone jako `done`
 
-Zaktualizuj `STATUS.md`:
-- co działa
-- co jest skończone
-- co jest następne
+2. Zaktualizuj `STATUS.md`:
+   - co działa
+   - co jest skończone
+   - co jest następne
+   - (jeśli istnieją) blokery
 
-Jeśli pojawiły się nowe decyzje/zmiany założeń:
-- zaktualizuj `spec.md`
+3. Jeśli pojawiły się nowe decyzje:
+   - zaktualizuj `spec.md` (`## Decyzje techniczne`)
 
-Nie zmieniaj kodu.
-Zrób commit i push.
+Zasady:
+- Nie zmieniaj kodu.
+- Zrób commit i push.
