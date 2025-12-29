@@ -131,7 +131,7 @@
 ### Pull Requests
 - Przed PR:
   - przeanalizuj różnice względem `main`
-- Jeśli narzędzie `git-diff-narrator` jest dostępne:
+- Jeśli skill `git-diff-narrator` jest dostępne:
   - użyj go do opisu zmian
 - Jeśli nie:
   - opisz ręcznie:
