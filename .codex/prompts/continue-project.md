@@ -9,7 +9,7 @@ Kontekst:
 - przeczytaj `ROADMAP.md`
 - przeczytaj `STATUS.md`
 - przeczytaj `AGENTS.md`
-- zapoznaj się z aktualnym stanem repo
+- zapoznaj się z aktualnym stanem repozytorium
 
 Zasady:
 - nie reinterpretuj wcześniejszych decyzji
@@ -18,5 +18,5 @@ Zasady:
 
 Po przeczytaniu:
 - krótko streść projekt
-- wymień aktualny milestone do realizacji
+- wskaż aktualny milestone do realizacji
 - nic nie implementuj
