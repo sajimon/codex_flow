@@ -23,7 +23,7 @@ Na koniec poprosić aby podsumował cała aplikację tylko jednym zdaniem. (Przy
 * Po pobraniu edytujemy plik `README.md` i wklejamy do niego to pojedyncze zdanie na temat naszej aplikacji, które wygenerował `GPT`, i zapisujemy.
 
 > ⚠️ **UWAGA**  
-> Jeśli nie skopiowałeś pliku [.codex](https://github.com/growdelan/codex_flow/blob/main/.codex) do `~/.codex/`,  
+> Jeśli nie skopiowałeś zawartości [.codex](https://github.com/growdelan/codex_flow/blob/main/.codex) do `~/.codex/`,  
 > uruchom `Codex` a następnie wykonaj komendę `/init`.  
 > Spowoduje to utworzenie domyślnego pliku `AGENTS.md`.
   
