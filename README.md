@@ -276,12 +276,11 @@ Używamy promptu `/prompts:project-wrap-up`:
 ```
 Zrób porządek w projekcie:
 
-1. Upewnij się, że `AGENTS.md` jest aktualne (tylko zasady pracy).
-2. Zaktualizuj `ROADMAP.md`:
+1. Zaktualizuj `ROADMAP.md`:
    - statusy milestone’ów zgodnie z rzeczywistością
-3. Zaktualizuj `STATUS.md`:
+2. Zaktualizuj `STATUS.md`:
    - aktualny stan projektu
-4. Upewnij się, że wszystko jest commitowane.
+3. Upewnij się, że wszystko jest commitowane.
 
 Zasady:
 - Nie zmieniaj kodu.
@@ -296,7 +295,6 @@ Kontekst:
 - przeczytaj `spec.md`
 - przeczytaj `ROADMAP.md`
 - przeczytaj `STATUS.md`
-- przeczytaj `AGENTS.md`
 - zapoznaj się z aktualnym stanem repozytorium
 
 Zasady:
