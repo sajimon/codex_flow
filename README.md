@@ -311,7 +311,7 @@ Jeśli daliśmy nowy PRD, to aktualizujemy `spec.md `i `ROADMAP.md` promptem `/p
 ```
 Na podstawie nowej funkcjonalności opisanej w pliku `PRD.md`:
 
-CZĘŚĆ 1 — Aktualizacja specyfikacji
+## CZĘŚĆ 1 — Aktualizacja specyfikacji
 1. Zaktualizuj istniejący plik `spec.md`, korzystając z jego OBECNEJ struktury.
 2. Nie zmieniaj nagłówków, nazw sekcji ani kolejności w `spec.md`.
 3. Dodaj lub rozszerz treść tylko w sekcjach, których dotyczy nowe PRD.
@@ -320,7 +320,7 @@ CZĘŚĆ 1 — Aktualizacja specyfikacji
    - dodaj je do sekcji `## Decyzje techniczne`
    - jasno zaznacz, że dotyczą nowej funkcjonalności.
 
-CZĘŚĆ 2 — Aktualizacja roadmapy
+## CZĘŚĆ 2 — Aktualizacja roadmapy
 6. Zaktualizuj istniejący plik `ROADMAP.md`.
 7. Nie zmieniaj treści ani statusów istniejących milestone’ów.
 8. Dodaj nowe milestone’y wynikające z PRD:
@@ -334,7 +334,7 @@ CZĘŚĆ 2 — Aktualizacja roadmapy
     - spójne z istniejącą specyfikacją
     - możliwe do realizacji iteracyjnie
 
-Zasady ogólne:
+## Zasady ogólne:
 - Nie zmieniaj struktury `spec.md` ani `ROADMAP.md`.
 - Nie zmieniaj kodu.
 - Jeśli nowe PRD jest w konflikcie z istniejącą specyfikacją:
