@@ -254,7 +254,7 @@ To będzie nasza baza na której będziemy pracować, takie nasze „Hello World
 ## 5. Praca z kolejnymi Milestone’ami  
 Każdy kolejny milestone wyzwalamy przez `/prompts:implement-milestone`:  
 ```
-Zaimplementuj kolejny milestone ze `ROADMAP.md`: Milestone <numer>.
+Zaimplementuj kolejny milestone z `ROADMAP.md`: Milestone $MILESTONE_ID
 
 Zasady:
 - realizuj wyłącznie zakres danego milestone’u
@@ -265,7 +265,6 @@ Zasady:
 
 Po zakończeniu:
 - uruchom testy
-- zrób commit z czytelnym opisem
 ```
 I zatwierdzamy zmiany identycznie jak w przypadku Milestone 0.5 (==PO SPRAWDZENIU CZY DZIAŁA!==)  
   
