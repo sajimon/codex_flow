@@ -1,7 +1,7 @@
 # Codex Flow
 
 ## Konfiguracja Codex
-[Ściąga w postaic diagramu](diagram.md)
+[Ściąga w postaci diagramu](diagram.md)
 
 Skopiowanie zawartości z [.codex](https://github.com/growdelan/codex_flow/blob/main/.codex) do swojego `~/.codex/` (domyślnie wykorzstanie `Pythona` + `UV`)
   
