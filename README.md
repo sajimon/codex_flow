@@ -1,17 +1,15 @@
 # Codex Flow
 
 ## Konfiguracja Codex
-[Ściąga w postaci diagramu](diagram.md)
+Skopiowanie zawartości repoi razem z `.agents` do swojego projektu (wykluczająć `README.md`)  
 
-Skopiowanie zawartości z [.codex](https://github.com/growdelan/codex_flow/blob/main/.codex) do swojego `~/.codex/` (domyślnie wykorzstanie `Pythona` + `UV`)
-  
 ## 1. PRD w GPT  
   
 Poprosić o PRD do nowego projektu za pomocą promptu podmieniająć `[nazwa lub krótki opis produktu/usługi]` na własny opis:  
 ```
 Jesteś ekspertem w tworzeniu dokumentów PRD (Product Requirements Document) dla aplikacji.
 
-Chciałbym stworzyć PRD dla [nazwa lub krótki opis produktu/usługi]. 
+Chciałbym stworzyć PRD dla **[nazwa lub krótki opis produktu/usługi]**. 
 
 Przeprowadź ze mną wywiad – zadawaj mi pytania jedno po drugim, aż poznasz cały potrzebny kontekst do stworzenia dokumentu dla mojej aplikacji. 
 
