@@ -2,43 +2,48 @@
 name: codex-flow-self-review
 description: >
   Użyj po zakończeniu implementacji, gdy trzeba wykonać przegląd własnych
-  ostatnich zmian pod kątem zgodności z ROADMAP.md, spec.md i AGENTS.md oraz
-  jakości kodu. Niczego jeszcze nie zmieniaj — tylko wypisz problemy i
-  zaproponuj konkretne poprawki. Nie używaj do wdrażania poprawek.
+  ostatnich zmian pod kątem zgodności z ROADMAP.md, spec.md, AGENTS.md i
+  jakości kodu. Najpierw przeanalizuj zmienione pliki, dokumentację i wyniki
+  testów, a następnie przygotuj listę problemów oraz konkretnych poprawek.
+  Nie wdrażaj jeszcze zmian. Nie używaj do implementacji funkcji ani do
+  nanoszenia poprawek po review.
 ---
 
 Wykonaj self-review ostatnich zmian.
 
 Cel:
-- sprawdzić spójność implementacji z dokumentacją
-- wykryć niespójności
-- wykryć złamanie zasad projektu
+- sprawdzić spójność implementacji z dokumentacją projektu
+- wykryć niespójności, naruszenia zasad i ryzyka jakościowe
+- przygotować konkretną listę poprawek bez wprowadzania zmian w kodzie
 
-Krok 1 — zgodność z ROADMAP
-- sprawdź czy zakres zmiany odpowiada Definition of Done aktualnego milestone’u
-- sprawdź czy nie dodano funkcji spoza zakresu
-
-Krok 2 — zgodność ze specyfikacją
-- sprawdź czy implementacja jest spójna z `spec.md`
-- sprawdź czy nie złamano wcześniejszych decyzji technicznych
-
-Krok 3 — zgodność z AGENTS.md
-- sprawdź czy:
-  - użyto poprawnej struktury repo
-  - nie dodano zależności bez uzasadnienia
-  - testy istnieją i są zgodne z zasadami
-  - entrypoint jest poprawnie opisany
-
-Krok 4 — jakość kodu
-- zbędne abstrakcje?
-- duplikacja logiki?
-- nadmierna złożoność?
-- martwy kod?
+Przebieg pracy:
+1. Zidentyfikuj zakres ostatnich zmian:
+   - sprawdź zmienione pliki
+   - sprawdź, jaki milestone lub zadanie było realizowane
+   - sprawdź, czy uruchomiono odpowiednie testy lub walidacje
+2. Oceń zgodność z dokumentacją:
+   - `ROADMAP.md`
+   - `spec.md`
+   - `AGENTS.md`
+   - `README.md`, jeśli zmiany wpływają na sposób użycia lub uruchamiania
+3. Oceń jakość wykonania:
+   - poprawność rozwiązania
+   - prostotę implementacji
+   - duplikację logiki
+   - zbędne abstrakcje
+   - martwy kod
+   - pokrycie testami i sensowność testów
+4. Przygotuj wynik przeglądu.
 
 Zasady:
 - niczego jeszcze nie zmieniaj
-- wypisz listę problemów (jeśli istnieją)
-- zaproponuj konkretne poprawki
+- nie rozszerzaj zakresu review poza ostatnie zmiany, chyba że wykryjesz realny wpływ uboczny
+- opieraj ocenę na faktycznym stanie repo i dokumentacji
+- jeśli potrzebujesz bardziej szczegółowej checklisty lub formatu wyniku, użyj plików z `references/`
+- jeśli potrzebujesz technicznego wsparcia do zebrania danych o zmianach lub uruchomienia walidacji, użyj skryptów z `scripts/`
 
-Jeśli wszystko jest poprawne:
-- napisz jasno: "Self-review zakończony – brak problemów krytycznych."
+Wynik:
+- jeśli są problemy, wypisz je jasno i pogrupuj według ważności
+- do każdego problemu dopisz proponowaną poprawkę
+- jeśli wszystko jest poprawne, napisz dokładnie:
+  `Self-review zakończony – brak problemów krytycznych.`

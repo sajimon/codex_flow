@@ -8,26 +8,33 @@ description: >
   funkcji ani do tworzenia nowego planu.
 ---
 
-Zrób porządek w projekcie:
+Zrób porządek w projekcie.
 
+Przebieg pracy:
 1. Zaktualizuj `ROADMAP.md`:
-   - statusy milestone’ów zgodnie z rzeczywistością
-
+   - statusy milestone'ów zgodnie z rzeczywistością
 2. Zaktualizuj `STATUS.md`:
    - aktualny stan projektu
-
-3. Sprawdź `README.md` i zaktualizuj go tylko wtedy, gdy ostatnie zmiany
-   wpływają na informacje istotne dla człowieka:
+   - istotne ograniczenia
+   - najbliższy sensowny następny krok, jeśli wynika z obecnego stanu
+3. Sprawdź `README.md` i zaktualizuj go tylko wtedy, gdy ostatnie zmiany wpływają na informacje istotne dla człowieka:
    - sposób uruchamiania
    - wymagania
    - komendy developerskie
    - opis działania funkcji
    - ograniczenia lub ważne zachowania systemu
-   Jeśli zmiany nie wpływają na te obszary, nie edytuj `README.md`.
-
-4. Upewnij się, że wszystko jest commitowane.
+4. Upewnij się, że stan repo jest zapisany:
+   - jeśli są niezapisane zmiany dokumentacyjne wynikające z wrap-up, przygotuj commit
+   - jeśli nie ma zmian, nie twórz pustych commitów
 
 Zasady:
-- Nie zmieniaj kodu.
-- Nie aktualizuj `README.md` kosmetycznie ani bez realnej potrzeby.
-- Dokumentacja ma odzwierciedlać faktyczny stan repo.
+- nie zmieniaj kodu
+- nie aktualizuj `README.md` kosmetycznie ani bez realnej potrzeby
+- dokumentacja ma odzwierciedlać faktyczny stan repo
+- jeśli potrzebujesz doprecyzowania zasad wrap-up albo README, użyj plików z `references/`
+- jeśli potrzebujesz technicznie sprawdzić stan repo, użyj skryptów z `scripts/`
+
+Wynik:
+- podsumuj, które dokumenty zostały zaktualizowane
+- zaznacz, czy powstał commit dokumentacyjny
+- jeśli nic nie wymagało zmian, napisz to wprost
