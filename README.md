@@ -1,7 +1,7 @@
 # Codex Flow
 
 ## 1. PRD w GPT  
-  
+   
 Poprosić o PRD do nowego projektu za pomocą promptu podmieniająć `[nazwa lub krótki opis produktu/usługi]` na własny opis:  
 ```
 Jesteś ekspertem w tworzeniu dokumentów PRD (Product Requirements Document) dla aplikacji.
@@ -34,9 +34,9 @@ Sprawdzamy czy w `ROADMAP.md` znajduje się Milestone 0.5 jeśli tak implementuj
 
 Po implementacji i sprawdzeniu czy działa czyli testy / ręczne uruchomienie i zatwierdzamy zmiany `$codex-flow-finalize-and-push-change` 
 
-To będzie nasza baza na której będziemy pracować, takie nasze „Hello World” dla obecnego projektu.  
+To będzie nasza baza na której będziemy pracować, takie nasze „Hello World" dla obecnego projektu.  
   
-## 5. Praca z kolejnymi Milestone’ami  
+## 5. Praca z kolejnymi Milestone'ami  
 Każdy kolejny milestone wyzwalamy przez `$codex-flow-implement-milestone` 
 
 **Opcjonalnie**
@@ -57,4 +57,10 @@ Nowy kontekst rozpoczynamy skillem sprawdzającym czy Codex wie w jakim jest mie
 
 Jeśli daliśmy nowy PRD, to aktualizujemy `spec.md `i `ROADMAP.md` skillem `$codex-flow-next-prd`  
 
-Po tym zabiegu, powtarzamy standardowe kroki z implementacją poszczególnych milestone’ów.  
+Po tym zabiegu, powtarzamy standardowe kroki z implementacją poszczególnych milestone'ów.  
+
+## 8. Uruchomienie wszystkich milestone'ów na raz
+
+Jeśli chcesz wykonać wszystkie milestone ze statusem `planned` w jednym przejściu, użyj dedykowanego promptu:
+
+[agents_all_milestones.md](prompts/agents_all_milestones.md)
